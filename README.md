@@ -15,7 +15,7 @@
 - **在线平台**：
   - [GitHub](https://github.com/YuhaoLian)
   - [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=dlzoXeQAAAAJ)
-  - [个人简历（CV）](assets/data/CV_YuhaoLian.pdf)
+  - [个人简历（CV）](./src/assets/data/CV_YuhaoLian.pdf)
 
 ## 研究方向
 - **B5G/6G 无线通信**：OFDM-IM 通信系统、面对更多接入设备的非正交多址接入技术。
@@ -27,27 +27,27 @@
     - 为降低串行干扰，基于信号的施密特正交化提出了星座稀疏叠加的非正交接入方式，从理论上突破传统的接入设备极限。
     - 通过 Matlab 与 VPI 联合仿真 与 AWG 与 DPO 实机实验得到验证。
     - 相关图片：
-      - ![弹性 PON 图 1](assets/data/fig/弹性PON图2.png)
-      - ![弹性 PON 图 2](assets/data/fig/弹性 PON.png)
-      - ![PD-SDCMA 图](assets/data/fig/PD-SDCMA.png)
-      - ![constelation 图](assets/data/fig/constelation.png)
+      - ![弹性 PON 图 1](./src/assets/data/fig/弹性PON图2.png)
+      - ![弹性 PON 图 2](./src/assets/data/fig/弹性 PON.png)
+      - ![PD-SDCMA 图](./src/assets/data/fig/PD-SDCMA.png)
+      - ![constelation 图](./src/assets/data/fig/constelation.png)
 2. **基于机器学习的热电机组氮氧化物排放动态预测（2024 年 10 月 - 至今）**
     - 为响应双碳目标，对 CFB 中的 NO_x 的预测进行建模，解决出口 NOx 浓度测量滞后性大的问题。
     - 在语义嵌入的基础上提出了 AML-XGBoost-Ts 模型，实现 NOx 浓度及时预测的同时提升 XGBoost 数据建模的可解释性。 
     - 构建基于 SHAP 值的可解释性分析框架，实现预测结果验证。
-    - 相关图片：![NOx 图](assets/data/fig/NOx.png)
+    - 相关图片：![NOx 图](./src/assets/data/fig/NOx.png)
 3. **Digital Communications—OFDM-IM（2022 年 10 月 - 2024 年 1 月）**
     - **导师**：[Prof. Justin Coon](https://eng.ox.ac.uk/people/justin-coon/)（Oxford University）
     - 针对 OFDM-IM 系统，在不同参数设置下展开深入仿真研究，评估系统性能。
     - 采用 WHT（Walsh-Hadamard Transform）与双 WHT 技术，降低 OFDM-IM 系统的高 PAPR 问题。
     - 分析与改进现有 OFDM-IM 检测算法，提出基于功率阈值的低信噪比检测方法，增强系统抗干扰能力。
     - 相关图片：
-      - ![OFDM-IM-WHT 图](assets/data/fig/OFDM-IM-WHT.png)
-      - ![OFDM-IM-MSP 图](assets/data/fig/OFDM-IM-MSP.png)
+      - ![OFDM-IM-WHT 图](./src/assets/data/fig/OFDM-IM-WHT.png)
+      - ![OFDM-IM-MSP 图](./src/assets/data/fig/OFDM-IM-MSP.png)
 4. **基于数字孪生模型的城市应急车辆路线仿真研究（2022 年 5 月 - 2024 年 4 月）**
     - 针对特种车辆（救护车/消防车等）在城市拥堵环境中的通行效率问题，主导设计基于实时交通态势的智能调度系统。
     - 构建“拥堵指数-警力效能”双目标优化模型，融合实时路况数据、警力分布热力图和应急事件等级，运用启发式算法实现道路节点通行能力与警员处置能力的动态适配。
-    - 相关图片：![V2X 图](assets/data/fig/V2X.png)
+    - 相关图片：![V2X 图](./src/assets/data/fig/V2X.png)
 
 ## 科研产出
 1. **学术会议（Conference Papers）**
