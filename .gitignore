@@ -1,0 +1,38 @@
+/*
+ * @Author: yuhao_lian lianyuhao@ieee.org
+ * @Date: 2025-04-01 21:06:31
+ * @LastEditors: yuhao_lian lianyuhao@ieee.org
+ * @LastEditTime: 2025-04-05 18:48:09
+ * @FilePath: \information_lyh\.gitignore
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.tsbuildinfo
